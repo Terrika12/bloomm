@@ -1,0 +1,206 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 35px;
+  }
+  
+  /* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+    font-size: 32px;
+    color: red;
+  }
+  ========================================== */
+
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*BEGINNING OF HEADER*/
+
+.header {
+    background-color: black; 
+}
+
+.header .inner {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+    .header .inner {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        background-color: orange;
+    }
+}
+
+.header .inner h1{
+    margin: 0 auto;
+    padding-left: 75px;
+    padding-top: 20px;
+    float: left;
+    font-size: 50px;
+    color: white;
+    font-family:'Cedarville Cursive', cursive;
+}
+
+.top-nav {
+    float: right;
+    margin: 35px 200px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+.top-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.clear {
+    clear:both
+}
+
+/*END OF HEADER*/
+
+/*BEGINNING OF MAIN*/
+
+
+
+.main .section1  {
+    float: left;
+    /*padding: 0;*/
+    padding-left: 100px;
+    width: 100%;
+    background-color: rgb(219, 107, 125);
+}
+
+.main .section1 h2 {
+    float: left;
+    margin-top: 65px;
+    padding-top: -30px;
+    padding-left: 80px;
+    color: white;
+}
+
+.main .section1 p {
+    margin: 0;
+    width: 30%;
+    padding-left: 80px;
+    padding-top: 70px;
+    color: white;
+}
+
+.main .section1 button {
+    float: left;
+    margin-top: 10px;
+    margin-left: 80px;
+    height: 15%;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+    border-style: outset;
+}
+
+.main .section1 img {
+    margin-top: -345px;
+    padding-left: 370px;
+    width: 850px;
+}
+
+.main .section2 , .section3 , .section4 {
+    margin: 0;
+    width: calc( 100% / 3 );
+    /*padding-right: 50px;*/
+    float: left;
+    padding: 50px;
+}
+
+.block2 img , .block3 img , .block4 img {
+    float: left;
+}
+
+.main .block5 h4 {
+    display: inline-block;
+    margin-left: 50px;
+    padding-right: 380px;
+}
+
+.main .block5 ul li {
+    list-style: none;
+    display: inline-block;
+    width: 10%;
+}
+
+.main .block5 a {
+    color:white;
+    background-color: rgb(37, 34, 34);
+    padding-right: 25px;
+    padding-left: 40px;
+    padding-top: 50px;
+    width: 45%;
+    border-radius: 2px;
+    display: inline-end;
+}
+
+.main .block6 {
+    float: right;
+    margin-top: -165px;
+    padding: 20px 50px;
+    width: 45%;
+}
+
+.main .block5 , .block6 {
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: pink;
+}
+/*.main .section6 .block6 {
+    float: left;
+}*/
+
+
+/*END OF MAIN*/
+
+/*BEGINNING OF FOOTER*/
+
+.footer {
+    margin-bottom: 1000px;
+}
+.footer .section7 {
+    background-color: black;
+    padding-top: 25%;
+}
+
+.footer ul li {
+    /*background-color: black;*/
+    list-style: none;
+}
+
+.footer-nav {
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: inline;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+  }
+
+
+
+/*END OF FOOTER*/
